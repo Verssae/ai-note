@@ -38,7 +38,8 @@
      w_j = w_j + \Delta w_j, \;\; \Delta w_j = \eta (y^{(i)} - \hat y^{(i)} ) x_j^{(i)}, \;\; j=1,2,\dots, m \quad \text{[Perceptron Learning Rule]}
      $$
    
-   * Linear separability: the training set is linearly separable if the positive examples can be separable from the negative examples.
+   * Linear separability: in d-dimensional space, a set of points with
+labels in {+, -} is linearly separable if there exists a hyperplane in the same space such that all the points labeled + lie to one side of the hyperplane, and all the points labeled - lie to the other side of the hyperplane.
    
    * Convergence: only guaranteed if
    
@@ -90,3 +91,6 @@
    * How can we extract useful information from the data
    * Performance differences between Perceptron, Logistic regression, and SVM
    * Strategies for grid search (with time limits, for example)
+
+
+* loss vs cost vs objective function : [link](https://blog.naver.com/PostView.nhn?blogId=qbxlvnf11&logNo=221386278997&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView)
